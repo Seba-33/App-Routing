@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row row-cols-8 g-4">
+    @for (animal of animals; track animal) {
+      <div class="col text-center">
+        <span class="fs-3 d-block">{{ animal.emoji }}</span>
+        <span class="small">{{ animal.name }}</span>
+      </div>
+    }
+
+  </div>
+</div>

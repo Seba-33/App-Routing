@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row row-cols-12 g-1">
+    @for (fruit of fruits; track fruit) {
+      <div class="col text-center">
+        <span class="fs-3 d-block">{{ fruit.emoji }}</span>
+        <span class="small">{{ fruit.name }}</span>
+      </div>
+    }
+
+  </div>
+</div>
